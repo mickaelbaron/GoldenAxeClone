@@ -2,25 +2,21 @@
 
 Golden Axe game implemented in java using only standard libraries (java 2D, AWT, Swing & Java Sound API), so no external libraries required.
 
-## Win64 Executable / Runnable jar / Source code - v0.0.2 (java 16+)
+## Requirements
 
-<https://github.com/leonardo-ono/JavaGoldenAxe/releases/tag/v0.0.2>
+* Java 16 >= (to compile and to run)
+* Maven (to compile)
 
-## Building locally
+## Build locally
 
-1. Install JDK (Adoptium download link)
-1. Set JAVA_HOME = path/to/jdk
-1. Set PATH = PATH + JAVA_HOME/bin
-1. Install Ant (Apache Ant Download link)
-1. Set PATH = PATH + Ant_install_dir/bin
 1. Clone this repo (git clone path://to/this/repo)
-1. cd JavaGoldenAxeClone/JavaGoldenAxe
-1. ant
+1. `$ cd JavaGoldenAxeClone/JavaGoldenAxe`
+1. `$ mvn clean package`
 
-## Running locally (after build)
+## Run locally (after build)
 
 ```bash
-java -jar /path/to/this/repo/JavaGoldenAxe/dist/JavaGoldenAxe.jar
+$ java -jar target/javagoldenaxe.jar
 ```
 
 ## Keyboard Controls
@@ -53,13 +49,13 @@ click the image above to see the gameplay video
 
 ## Screenshots
 
-![](https://raw.githubusercontent.com/leonardo-ono/JavaGoldenAxe/master/screenshots/screenshot_1.png)
+![](./screenshots/screenshot_1.png)
 
-![](https://raw.githubusercontent.com/leonardo-ono/JavaGoldenAxe/master/screenshots/screenshot_2.png)
+![](./screenshots/screenshot_2.png)
 
-![](https://raw.githubusercontent.com/leonardo-ono/JavaGoldenAxe/master/screenshots/screenshot_3.png)
+![](./screenshots/screenshot_3.png)
 
-![](https://raw.githubusercontent.com/leonardo-ono/JavaGoldenAxe/master/screenshots/screenshot_0.png)
+![](./screenshots/screenshot_0.png)
 
 ## References
 

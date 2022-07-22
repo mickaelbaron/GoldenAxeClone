@@ -1,2 +1,0 @@
-point projectile 32 231
-point projectile 333 306
